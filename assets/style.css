@@ -342,6 +342,13 @@ font-size: 0.7rem;
     background-color: #fff;
     margin: 0 auto 0.5rem;
 }
+
+.recommend-container .items .image:hover {
+    width: 90px;
+    height: 90px;
+    margin-top: -5px;
+}
+
 /* おすすめアイテム一覧の画像指定 */
 .recommend-container .items:nth-child(1) .image {
     background: url(./images/m.jpg) no-repeat;
@@ -387,34 +394,3 @@ font-size: 0.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.profile-container .image {
-    transform-style: preserve-3d;
-}
-
-.web {
-    position: fixed;
-    width: 102px;
-    height: 102px;
-    /* transform: translate3d(0, 0, 8px) ; */
-    transform: translateZ(8px) ;
-}
-.web2 {
-    position: fixed;
-    width: 102px;
-    height: 102px;
-    /* transform: translate3d(0, 0, 4px) ; */
-    transform: translateZ(4px) ;
-}
-.eye {
-    position: fixed;
-    width: 102px;
-    height: 102px;
-    /* transform: translate3d(0, 0, 6px) ; */
-    transform: translateZ(6px) ;
-}
-.eye2 {
-    width: 102px;
-    height: 102px;
-    /* transform: translate3d(0, 0, 3px) ; */
-    transform: translateZ(3px) ;
-}
